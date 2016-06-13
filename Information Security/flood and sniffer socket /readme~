@@ -1,0 +1,7 @@
+flood泛洪
+./flood.out dst_ip dst_port packets_number pertime 
+
+sniffer抓包
+./sniffer
+
+
