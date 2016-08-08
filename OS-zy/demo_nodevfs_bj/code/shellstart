@@ -1,0 +1,11 @@
+#! /bin/sh
+rm /dev/evan #删除设备文件结点
+rmmod evan   #卸载模块的同时
+
+make clean
+
+make
+mknod /dev/evan c 99 0   #创建设备结点，之后的c表示创建的是字符设备，99为主设备号，0为次设备号，/dev/evan为创建的设备文件
+insmod evan.o   #插入驱动模块
+
+./test_demo

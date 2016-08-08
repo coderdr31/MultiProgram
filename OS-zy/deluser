@@ -1,0 +1,57 @@
+#!/bin/bash
+########################################
+# Author:戴睿
+# 注意空格，等号左右不能有空格
+# 两个for可以嵌套
+# 两个while或者for-while嵌套不可以
+# 而且 !/bin/bash 的声明必须放在第一行
+# 否则会提示循环不能执行
+########################################
+for i in $(seq 1 4)
+do
+    if [ $i -le 9 ]
+    then
+        CLASSNAME=jsjclass0${i}
+    else
+        CLASSNAME=jsjclass${i}
+    fi
+
+    #groupadd $CLASSNAME
+    groupdel $CLASSNAME
+
+    for j in $(seq 1 30)
+    do
+        if [ $j -le 9 ]
+        then
+            USERNAME=${CLASSNAME}stuj0${j}
+        else
+            USERNAME=${CLASSNAME}stuj${j}
+        fi
+
+        #useradd $USERNAME  #和adduser不同.一无Home Directory，二无密码，三无系统Shell
+        userdel $USERNAME
+        #chown -R $USERNAME /home/$USERNAME
+        #chgrp -R $CLASSNAME /home/$USERNAME
+    done
+done
+
+:<<!EOF!
+cat /etc/passwd
+cat /etc/group
+
+shell中for 循环传统和C的写法
+#!/bin/bash
+echo "for: Traditional form: for var in ..."
+for j in $(seq 1 5)
+do
+        echo $j
+done
+
+echo "for: C language form: for (( exp1; exp2; exp3 ))"
+
+for (( i=1; i<=5; i++ ))
+do
+        echo "i=$i"
+done
+
+!EOF!
