@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UPCGPS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D2B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/UPCGPS.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\UPCGPS 7×îÖÕ1\UPCGPSDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D2B.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D2C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/UPCGPS.pdb" /debug /machine:I386 /out:"Debug/UPCGPS.exe" /pdbtype:sept 
+".\Debug\3.obj"
+".\Debug\4.obj"
+".\Debug\C10.obj"
+".\Debug\C11.obj"
+".\Debug\C12.obj"
+".\Debug\C13.obj"
+".\Debug\C14.obj"
+".\Debug\C15.obj"
+".\Debug\C16.obj"
+".\Debug\C17.obj"
+".\Debug\C18.obj"
+".\Debug\C19.obj"
+".\Debug\C20.obj"
+".\Debug\C5.obj"
+".\Debug\C6.obj"
+".\Debug\C8.obj"
+".\Debug\C88.obj"
+".\Debug\C9.obj"
+".\Debug\EGraph.obj"
+".\Debug\Gym1.obj"
+".\Debug\Register.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Tyc2.obj"
+".\Debug\UPCGPS.obj"
+".\Debug\UPCGPSDlg.obj"
+".\Debug\value.obj"
+".\Debug\yjsssl0.obj"
+".\Debug\UPCGPS.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D2C.tmp"
+<h3>Output Window</h3>
+Compiling...
+UPCGPSDlg.cpp
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3E55.tmp" with contents
+[
+/nologo /o"Debug/UPCGPS.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\3.sbr"
+".\Debug\4.sbr"
+".\Debug\C10.sbr"
+".\Debug\C11.sbr"
+".\Debug\C12.sbr"
+".\Debug\C13.sbr"
+".\Debug\C14.sbr"
+".\Debug\C15.sbr"
+".\Debug\C16.sbr"
+".\Debug\C17.sbr"
+".\Debug\C18.sbr"
+".\Debug\C19.sbr"
+".\Debug\C20.sbr"
+".\Debug\C5.sbr"
+".\Debug\C6.sbr"
+".\Debug\C8.sbr"
+".\Debug\C88.sbr"
+".\Debug\C9.sbr"
+".\Debug\EGraph.sbr"
+".\Debug\Gym1.sbr"
+".\Debug\Register.sbr"
+".\Debug\Tyc2.sbr"
+".\Debug\UPCGPS.sbr"
+".\Debug\UPCGPSDlg.sbr"
+".\Debug\value.sbr"
+".\Debug\yjsssl0.sbr"]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3E55.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+UPCGPS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,769 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\UPCGPS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\UPCGPS.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_UPCGPS_DIALOG DIALOGEX 0, 0, 825, 459
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "UPCGPS"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,768,415,50,14
+    COMBOBOX        IDC_COMBO1,712,39,106,81,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,716,140,102,106,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "查询",IDC_SEARCH_BUTTON,768,249,50,14
+    PUSHBUTTON      "放大",IDC_BIG_BUTTON,701,329,50,14
+    PUSHBUTTON      "缩小",IDC_SMALL_BUTTON,768,330,50,14
+    LTEXT           "请选择起点和终点",IDC_STATIC,680,27,87,8
+    LTEXT           "起点：",IDC_STATIC,678,43,25,8
+    LTEXT           "终点：",IDC_STATIC,680,142,25,8
+    PUSHBUTTON      "更改背景颜色",IDC_CHANGECOL_BUTTON,705,357,50,45
+    PUSHBUTTON      "简单示意图",IDC_EG_BUTTON,768,353,50,50
+    CONTROL         189,IDC_STATIC,"Static",SS_BITMAP,629,261,27,31
+    CONTROL         190,IDC_STATIC,"Static",SS_BITMAP,631,303,27,16
+END
+
+IDD_REGISTER_DIALOG DIALOG DISCARDABLE  0, 0, 299, 186
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "开始导航",IDC_INTER,59,130,63,49
+    PUSHBUTTON      "退出",IDC_REXIT,156,141,50,38
+END
+
+IDD_DIALOG0 DIALOG DISCARDABLE  0, 0, 254, 142
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         133,IDC_STATIC,"Static",SS_BITMAP,7,10,100,125
+    LTEXT           "  研究生宿舍楼:为硕士研究生公寓，四人间，独立卫生间，独立浴室。晚上0:00熄灯，节假日推迟到1:00熄灯。",
+                    IDC_STATIC,115,21,127,110
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 233, 144
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  体育馆:内设健身馆、羽毛球馆、健美操馆、乒乓球馆、跆拳道馆、篮球馆等，对外收费。",
+                    IDC_STATIC,121,19,103,73
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 216, 139
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         137,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "体育场",IDC_STATIC,114,13,77,75
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 209, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  11-15号宿舍楼:为本科生公寓，标准6人间，公用楼层卫生间。晚上23:00熄灯，节假日推迟到1:00熄灯。东侧为荟萃苑餐厅，南侧有伊尚房洗衣店、山东省邮政速递物流有限公司石油大学营业厅。",
+                    IDC_STATIC,111,14,73,87
+END
+
+IDD_DIALOG4 DIALOG DISCARDABLE  0, 0, 219, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  1-9号宿舍楼:为本科生公寓，两室一厅格局，每个卧室标准6人间，共用一个厅和卫生间。晚上23:00熄灯，节假日推迟到1:00熄灯。西侧为荟萃苑餐厅",
+                    IDC_STATIC,118,21,88,97
+END
+
+IDD_DIALOG5 DIALOG DISCARDABLE  0, 0, 255, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    LTEXT           "  16、17号宿舍楼:为本科生公寓，标准6人间，公用楼层卫生间。晚上23:00熄灯，节假日推迟到1:00熄灯。东侧离荟萃苑餐厅较近。",
+                    IDC_STATIC,111,13,95,87
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+END
+
+IDD_DIALOG6 DIALOG DISCARDABLE  0, 0, 212, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  18、19号宿舍楼:为本科生公寓，标准6人间，公用楼层卫生间。晚上23:00熄灯，节假日推迟到1:00熄灯。北侧为中国银行ATM、中国农业银行ATM以及中国邮政收发室。",
+                    IDC_STATIC,112,18,85,94
+END
+
+IDD_DIALOG7 DIALOG DISCARDABLE  0, 0, 245, 153
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         141,IDC_STATIC,"Static",SS_BITMAP,11,15,100,125
+    LTEXT           "  特种实验室",IDC_STATIC,123,18,70,80
+END
+
+IDD_DIALOG8 DIALOG DISCARDABLE  0, 0, 218, 145
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         143,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  工科楼A、B:该楼主要是化学工程学院（1、2、3、4、5、6、7层）和信息与控制工程学院（1、5、6、7层）的行政办公室和教学科研实验室，理学院（5层）也有部分老师在此办公。",
+                    IDC_STATIC,126,14,69,103
+END
+
+IDD_DIALOG9 DIALOG DISCARDABLE  0, 0, 268, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         144,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  工科楼C、D:该楼主要是储运与建筑工程学院（1、2、3、4、6、7层）和机电工程学院（3、4、5、6、7层）的行政办公室和教学科研实验室，化学工程学院（3、5、6、7层）也有部分老师在此办公。",
+                    IDC_STATIC,120,16,134,97
+END
+
+IDD_DIALOG10 DIALOG DISCARDABLE  0, 0, 213, 145
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         142,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  逸夫实验楼:该楼是学校主要科研机构和会议中心的所在地，科研机构包括：化学工程学院（1、2、4、5层）科研实验室、生物工程中心（5层）科研实验室、石油工程学院（1、3、4）科研实验室、地球... ",
+                    IDC_STATIC,121,14,76,95
+END
+
+IDD_DIALOG11 DIALOG DISCARDABLE  0, 0, 222, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         157,IDC_STATIC,"Static",SS_BITMAP,7,0,100,125
+    LTEXT           "  荟萃餐厅:荟萃苑餐厅共三层：",IDC_STATIC,118,18,89,109
+END
+
+IDD_DIALOG12 DIALOG DISCARDABLE  0, 0, 230, 144
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         146,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  玉兰餐厅:玉兰苑餐厅共四层，一层西北角为凤凰快餐店。",
+                    IDC_STATIC,119,28,104,109
+END
+
+IDD_DIALOG13 DIALOG DISCARDABLE  0, 0, 248, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,13,14,100,125
+    LTEXT           "  大学生活动中心:大学生活动中心是学生社团的主要所在地，大学生资助事务大厅、学生教育信息工作站、学生管理信息工作站也在此办公。",
+                    IDC_STATIC,123,27,110,92
+END
+
+IDD_DIALOG14 DIALOG DISCARDABLE  0, 0, 275, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         148,IDC_STATIC,"Static",SS_BITMAP,15,7,100,125
+    LTEXT           "  基础实验楼:基础实验楼C区1、2层为储运与建筑工程学院教学实验室，3、4、5层为机电工程学院教学科研实验室，6层为计算机与通信工程学院教学科研实验室。",
+                    IDC_STATIC,124,25,144,97
+END
+
+IDD_DIALOG15 DIALOG DISCARDABLE  0, 0, 214, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "办公楼、图书馆:该楼东侧部分是学校行政管理机构，学校的党政部门和直属机构主要在此办公；西侧部分为图书馆，一楼是文艺书库，二楼是社科书库，三楼是科技书库，四楼是保存本阅览室，五楼是工具书阅览室... ",
+                    IDC_STATIC,117,14,70,121
+END
+
+IDD_DIALOG16 DIALOG DISCARDABLE  0, 0, 223, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         150,IDC_STATIC,"Static",SS_BITMAP,7,11,100,125
+    LTEXT           "  多媒体教学楼:多媒体教室向本科生开放上机。",IDC_STATIC,
+                    120,29,75,44
+END
+
+IDD_DIALOG17 DIALOG DISCARDABLE  0, 0, 247, 147
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         151,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "讲堂群:讲堂群分为东环、西环、东廊、西廊、南堂五部分，鸟瞰呈党徽标志。南堂共5层，2、3、4层有外语语音室。多媒体值班室设在南堂2层。",
+                    IDC_STATIC,128,23,102,52
+END
+
+IDD_DIALOG18 DIALOG DISCARDABLE  0, 0, 178, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  校北门",IDC_STATIC,118,24,53,49
+END
+
+IDD_DIALOG19 DIALOG DISCARDABLE  0, 0, 214, 139
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         153,IDC_STATIC,"Static",SS_BITMAP,13,7,100,125
+    LTEXT           "校南门",IDC_STATIC,123,24,25,8
+END
+
+IDD_DIALOG20 DIALOG DISCARDABLE  0, 0, 215, 142
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         154,IDC_STATIC,"Static",SS_BITMAP,7,7,100,125
+    LTEXT           "  唐岛湾餐厅:唐岛湾餐厅共三层，一楼二楼是餐厅（二楼有一清真餐厅），三楼是各个社团办公室及活动大厅。",
+                    IDC_STATIC,117,16,75,68
+END
+
+IDD_DIALOG51 DIALOG DISCARDABLE  0, 0, 516, 303
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,7,7,468,278
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "UPCGPS Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "UPCGPS\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2015\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "UPCGPS.EXE\0"
+            VALUE "ProductName", "UPCGPS 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_UPCGPS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 818
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 452
+    END
+
+    IDD_REGISTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_DIALOG0, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 238
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_DIALOG9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_DIALOG14, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_DIALOG15, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DIALOG16, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_DIALOG17, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_DIALOG18, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DIALOG19, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_DIALOG20, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_DIALOG51, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 509
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 296
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_UPCGPS_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 13, 0
+0xd0d1, 0xbfbe, 0xfac9, 0xdecb, 0xe1c9, 0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xe5cc, 0xfdd3, 0xddb9, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xe5cc, 0xfdd3, 0xa1b3, "\000" 
+    IDC_COMBO1, 0x403, 14, 0
+0x3131, 0x312d, 0xba35, 0xcbc5, 0xc9de, 0xc2e1, 0x00a5, 
+    IDC_COMBO1, 0x403, 12, 0
+0x2d31, 0xba39, 0xcbc5, 0xc9de, 0xc2e1, 0x00a5, 
+    IDC_COMBO1, 0x403, 15, 0
+0x3631, 0xa2a1, 0x3731, 0xc5ba, 0xdecb, 0xe1c9, 0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0x3831, 0xa2a1, 0x3931, 0xc5ba, 0xdecb, 0xe1c9, 0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0xd8cc, 0xd6d6, 0xb5ca, 0xe9d1, 0xd2ca, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0xa4b9, 0xc6bf, 0xa5c2, 0xa141, 0x42a2, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0xa4b9, 0xc6bf, 0xa5c2, 0xa143, 0x44a2, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0xddd2, 0xf2b7, 0xb5ca, 0xe9d1, 0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xf6dc, 0xcddd, 0xcdb2, 0xfccc, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xf1d3, 0xbcc0, 0xcdb2, 0xfccc, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0xf3b4, 0xa7d1, 0xfac9, 0xeebb, 0xafb6, 0xd0d6, 0xc4d0, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0xf9bb, 0xa1b4, 0xb5ca, 0xe9d1, 0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0xecb0, 0xabb9, 0xa5c2, 0xa2a1, 0xbccd, 0xe9ca, 0xddb9, "\000" 
+    IDC_COMBO1, 0x403, 13, 0
+0xe0b6, 0xbdc3, 0xe5cc, 0xccbd, 0xa7d1, 0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xb2bd, 0xc3cc, 0xbac8, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xa3d0, 0xb1b1, 0xc5c3, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xa3d0, 0xcfc4, 0xc5c3, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0xc6cc, 0xbab5, 0xe5cd, 0xcdb2, 0xfccc, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xcfc4, 0xccbd, 0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xc4ce, 0xedc0, 0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 8, 0
+0xa4b9, 0xc6bf, 0xa5c2, 0x0045, 
+    IDC_COMBO1, 0x403, 21, 0
+0xf4c1, 0xa7d1, 0xfac9, 0xebd3, 0xe0c5, 0xb5d1, 0xfac9, 0xdbd7, 0xcfba, 
+0xa5c2, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xafca, 0xf3b4, 0xaec5, 0xf1c9, "\000" 
+    IDC_COMBO2, 0x403, 13, 0
+0xd0d1, 0xbfbe, 0xfac9, 0xdecb, 0xe1c9, 0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xe5cc, 0xfdd3, 0xddb9, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xe5cc, 0xfdd3, 0xa1b3, "\000" 
+    IDC_COMBO2, 0x403, 14, 0
+0x3131, 0x312d, 0xba35, 0xcbc5, 0xc9de, 0xc2e1, 0x00a5, 
+    IDC_COMBO2, 0x403, 12, 0
+0x2d31, 0xba39, 0xcbc5, 0xc9de, 0xc2e1, 0x00a5, 
+    IDC_COMBO2, 0x403, 15, 0
+0x3631, 0xa2a1, 0x3731, 0xc5ba, 0xdecb, 0xe1c9, 0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 15, 0
+0x3831, 0xa2a1, 0x3931, 0xc5ba, 0xdecb, 0xe1c9, 0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 11, 0
+0xd8cc, 0xd6d6, 0xb5ca, 0xe9d1, 0xd2ca, "\000" 
+    IDC_COMBO2, 0x403, 11, 0
+0xa4b9, 0xc6bf, 0xa5c2, 0xa141, 0x42a2, "\000" 
+    IDC_COMBO2, 0x403, 11, 0
+0xa4b9, 0xc6bf, 0xa5c2, 0xa143, 0x44a2, "\000" 
+    IDC_COMBO2, 0x403, 11, 0
+0xddd2, 0xf2b7, 0xb5ca, 0xe9d1, 0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 9, 0
+0xf6dc, 0xcddd, 0xcdb2, 0xfccc, "\000" 
+    IDC_COMBO2, 0x403, 9, 0
+0xf1d3, 0xbcc0, 0xcdb2, 0xfccc, "\000" 
+    IDC_COMBO2, 0x403, 15, 0
+0xf3b4, 0xa7d1, 0xfac9, 0xeebb, 0xafb6, 0xd0d6, 0xc4d0, "\000" 
+    IDC_COMBO2, 0x403, 11, 0
+0xf9bb, 0xa1b4, 0xb5ca, 0xe9d1, 0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 15, 0
+0xecb0, 0xabb9, 0xa5c2, 0xa2a1, 0xbccd, 0xe9ca, 0xddb9, "\000" 
+    IDC_COMBO2, 0x403, 13, 0
+0xe0b6, 0xbdc3, 0xe5cc, 0xccbd, 0xa7d1, 0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xb2bd, 0xc3cc, 0xbac8, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xa3d0, 0xb1b1, 0xc5c3, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xa3d0, 0xcfc4, 0xc5c3, "\000" 
+    IDC_COMBO2, 0x403, 11, 0
+0xc6cc, 0xbab5, 0xe5cd, 0xcdb2, 0xfccc, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xcfc4, 0xccbd, 0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xc4ce, 0xedc0, 0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 8, 0
+0xa4b9, 0xc6bf, 0xa5c2, 0x0045, 
+    IDC_COMBO2, 0x403, 21, 0
+0xf4c1, 0xa7d1, 0xfac9, 0xebd3, 0xe0c5, 0xb5d1, 0xfac9, 0xdbd7, 0xcfba, 
+0xa5c2, "\000" 
+    IDC_COMBO2, 0x403, 9, 0
+0xafca, 0xf3b4, 0xaec5, 0xf1c9, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "picture\\11.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "picture\\10.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "picture\\12.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "picture\\14.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "picture\\15.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "picture\\16.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "picture\\17.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "picture\\18.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "picture\\19.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "picture\\20.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "picture\\21.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "picture\\22.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "picture\\23.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "picture\\24.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "picture\\25.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "picture\\26.bmp"
+IDB_BITMAP17            BITMAP  DISCARDABLE     "picture\\27.bmp"
+IDB_BITMAP18            BITMAP  DISCARDABLE     "picture\\28.bmp"
+IDB_BITMAP19            BITMAP  DISCARDABLE     "picture\\29.bmp"
+IDB_BITMAP20            BITMAP  DISCARDABLE     "picture\\30.bmp"
+IDB_BITMAP21            BITMAP  DISCARDABLE     "picture\\31.bmp"
+IDB_BITMAP22            BITMAP  DISCARDABLE     "picture\\32.bmp"
+IDB_BITMAP23            BITMAP  DISCARDABLE     "picture\\33.bmp"
+IDB_BITMAP24            BITMAP  DISCARDABLE     "picture\\34.bmp"
+IDB_BITMAP25            BITMAP  DISCARDABLE     "picture\\35.bmp"
+IDB_BITMAP26            BITMAP  DISCARDABLE     "picture\\13.bmp"
+IDB_BITMAP27            BITMAP  DISCARDABLE     "picture\\51.bmp"
+IDB_BITMAP28            BITMAP  DISCARDABLE     "picture\\52.bmp"
+IDB_BITMAP29            BITMAP  DISCARDABLE     "picture\\53.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR2             CURSOR  DISCARDABLE     "res\\cursor2.cur"
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_CURSOR3             CURSOR  DISCARDABLE     "res\\cursor3.cur"
+IDC_CURSOR4             CURSOR  DISCARDABLE     "res\\cursor4.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "下拉菜单"
+    BEGIN
+        MENUITEM "最近餐厅",                    ID_REST
+        MENUITEM "最近自习教学楼",              ID_STUDY
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\UPCGPS.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

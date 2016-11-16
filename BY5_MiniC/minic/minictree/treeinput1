@@ -1,0 +1,10 @@
+int main()
+{
+    if(1>1||2>2)
+        print(1);
+    else
+        if(3>1&&2>2)
+            print(2);
+        else
+            print(3);
+}

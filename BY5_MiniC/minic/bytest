@@ -1,0 +1,7 @@
+#! /bin/bash
+make lex
+make yacc
+make 
+./parser < testfile/test3.c > test.asm
+nasm -f elf test.asm
+ld -s -o test test.o
